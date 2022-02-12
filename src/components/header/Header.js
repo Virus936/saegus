@@ -1,5 +1,4 @@
 import logo from '../../logo.png';
-import React from "react"
 import styled from 'styled-components'
 import {selectMenu} from '../../features/menu/menuSlice'
 import { useSelector, useDispatch } from 'react-redux'

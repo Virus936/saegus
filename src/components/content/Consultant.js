@@ -1,28 +1,27 @@
-import React, {useState} from "react"
 import Title from '../title/Title'
 import styled from 'styled-components'
 import ConsultantComponents from './ConsultantComponents'
 
 const consultants = [{
-    nom:"Aurore" ,
+    nom:"Sakura" ,
     poste:"Consultante Agile" 
   }, {
-    nom:"Céline" ,
+    nom:"Hinata" ,
     poste:"Consultante Digital" 
   }, {
-    nom:"Clem" ,
+    nom:"Naruto" ,
     poste:"Deputy leader Design" 
   }, {
-    nom:"Geo" ,
+    nom:"Itachi" ,
     poste:"Consultante Agile" 
   }, {
-    nom:"Marco" ,
+    nom:"Jiraya" ,
     poste:"Responsable Avant-Ventes et Customer Success" 
   }, {
-    nom:"Steph'" ,
+    nom:"Ino'" ,
     poste:"Manager et Product Owner" 
   }, {
-    nom:"Thib" ,
+    nom:"Shikamaru" ,
     poste:"Manager Digital Engagement" 
   },
 ]

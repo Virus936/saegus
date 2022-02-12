@@ -1,4 +1,3 @@
-import React, {useState} from "react"
 import styled from 'styled-components'
 import Home from './home/Home'
 import Menu from '../components/menu/Menu'
