@@ -1,9 +1,8 @@
-import styled from 'styled-components'
-import Header from './components/header/Header'
-import Main from './page/Main'
+import styled from 'styled-components';
+import Header from './components/header/Header';
+import Main from './page/Main';
 
 function App() {
-
   return (
     <Container>
       <Header />
@@ -13,8 +12,8 @@ function App() {
 }
 
 const Container = styled.div`
-  position:relative;
-  overflow:hidden;
-`
+  position: relative;
+  overflow: hidden;
+`;
 
 export default App;

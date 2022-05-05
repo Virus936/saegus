@@ -1,38 +1,36 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-function Title({title, number}){
-  return(
+function Title({ title, number }) {
+  return (
     <Container>
-        <h1>{title}</h1>
-        {number&& <span> {number} </span> }
+      <h1>{title}</h1>
+      {number && <span> {number} </span>}
     </Container>
-    )
+  );
 }
 
 const Container = styled.div`
-  position:relative;
-  display:flex;
-  width:100vw;
-  
+  position: relative;
+  display: flex;
+  width: 100vw;
 
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 
-  text-align:center;
-  h1{
-    position:absolute;
-    margin:auto;
-    text-transform:uppercase;
-
+  text-align: center;
+  h1 {
+    position: absolute;
+    margin: auto;
+    text-transform: uppercase;
   }
-  span{
-    font-size:4em;
-    letter-spacing:.2em;
-    margin:10px auto;
-    color:#ddd;
+  span {
+    font-size: 4em;
+    letter-spacing: 0.2em;
+    margin: 10px auto;
+    color: #ddd;
   }
-`
+`;
 Title.defaultProps = {
-  number:'',
-}
-export default Title
+  number: '',
+};
+export default Title;
